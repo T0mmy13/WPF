@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="FontColor" Color="Black"/>
+    <SolidColorBrush x:Key="WindowBackground" Color="white"/>
+    <SolidColorBrush x:Key="ControlBackground" Color="#ECECEC"/>
+
+    <!-- Цвета кнопок -->
+    <SolidColorBrush x:Key="ButtonBackground" Color="#DADADA"/>
+    <SolidColorBrush x:Key="ButtonHover" Color="#C0C0C0"/>
+    <SolidColorBrush x:Key="ButtonPressed" Color="#A8A8A8"/>
+    <SolidColorBrush x:Key="ButtonForeground" Color="Black"/>
+    <SolidColorBrush x:Key="ButtonBorder" Color="#CCCCCC"/>
+
+    <!-- Цвета кнопки добавления -->
+    <SolidColorBrush x:Key="AddButtonBackground" Color="#28A745"/>
+    <SolidColorBrush x:Key="AddButtonHover" Color="#218838"/>
+    <SolidColorBrush x:Key="AddButtonPressed" Color="#1E7E34"/>
+
+    <!-- Цвета кнопки удаления -->
+    <SolidColorBrush x:Key="DeleteButtonBackground" Color="#DC3545"/>
+    <SolidColorBrush x:Key="DeleteButtonHover" Color="#C82333"/>
+    <SolidColorBrush x:Key="DeleteButtonPressed" Color="#BD2130"/>
+</ResourceDictionary>
