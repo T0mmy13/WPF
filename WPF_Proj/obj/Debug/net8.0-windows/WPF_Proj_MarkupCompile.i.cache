@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 E:\Projects\WPF_Proj\WPF_Proj\App.xaml
-11-335629754
+121543818322
 
-18-1376654774
+232022821835
 228-14477861
-MainWindow.xaml;Pages\PageAddpatient.xaml;Pages\PageApointmens.xaml;Pages\PageChangeInfo.xaml;Pages\PageLogin.xaml;Pages\PageMainMenu.xaml;Pages\PageRegistration.xaml;Styles\Colors\DarkColors.xaml;Styles\Colors\DefaultColors.xaml;Styles\UI\Buttons.xaml;Styles\UI\Default.xaml;
+MainWindow.xaml;Pages\PageAddpatient.xaml;Pages\PageApointmens.xaml;Pages\PageChangeInfo.xaml;Pages\PageLogin.xaml;Pages\PageMainMenu.xaml;Pages\PageRegistration.xaml;Styles\Colors\DarkColors.xaml;Styles\Colors\DefaultColors.xaml;Styles\UI\Buttons.xaml;Styles\UI\Default.xaml;Styles\UI\ValidationStyles.xaml;
 
-False
+True
 

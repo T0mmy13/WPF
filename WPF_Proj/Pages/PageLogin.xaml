@@ -4,19 +4,40 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WPF_Proj.Pages"
+      xmlns:validation="clr-namespace:WPF_Proj.ValidationRules"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Background="{DynamicResource MainBrush}">
 
     <Grid>
-
         <StackPanel Style="{StaticResource LoginStack}">
             <Label Content="Вход" Style="{StaticResource H1}"/>
+
+            <!-- ID врача -->
             <Label Content="ID врача" Style="{StaticResource H2}"/>
-            <TextBox Text="{Binding Id}"/>
+            <TextBox x:Name="idTextBox" Style="{StaticResource ValidatedTextBox}">
+                <TextBox.Text>
+                    <Binding Path="Id" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
+                        <Binding.ValidationRules>
+                            <validation:CommonValidationRules ValidationType="OnlyDigits" FieldName="ID врача"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl Style="{StaticResource ValidationErrorItems}"
+                         ItemsSource="{Binding ElementName=idTextBox, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <!-- Пароль -->
             <Label Content="Пароль" Style="{StaticResource H2}"/>
-            <PasswordBox x:Name="passBox"/>
-            <Button Click="Button_Click_Sign">
+            <PasswordBox x:Name="passBox" Style="{StaticResource ValidatedPasswordBox}"/>
+
+            <Button Click="Button_Click_Sign" Margin="0,20,0,0">
                 <Label Content="Войти" Style="{StaticResource H2}"/>
             </Button>
             <Button Click="Button_Click_Reg">

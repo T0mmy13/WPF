@@ -4,22 +4,99 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WPF_Proj.Pages"
+      xmlns:validation="clr-namespace:WPF_Proj.ValidationRules"
       mc:Ignorable="d" 
       d:DesignHeight="600" d:DesignWidth="800">
+
     <Grid>
         <StackPanel Style="{StaticResource RegistrStack}">
-            <Label Content="Регистрация " Style="{StaticResource H1}"/>
+            <Label Content="Регистрация врача" Style="{StaticResource H1}"/>
+
+            <!-- Имя -->
             <Label Content="Имя" Style="{StaticResource H2}"/>
-            <TextBox Text="{Binding Name}"/>
+            <TextBox x:Name="NameTextBox" Style="{StaticResource ValidatedTextBox}">
+                <TextBox.Text>
+                    <Binding Path="Name" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
+                        <Binding.ValidationRules>
+                            <validation:CommonValidationRules ValidationType="OnlyLetters" FieldName="Имя"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl Style="{StaticResource ValidationErrorItems}"
+                         ItemsSource="{Binding ElementName=NameTextBox, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <!-- Фамилия -->
             <Label Content="Фамилия" Style="{StaticResource H2}"/>
-            <TextBox Text="{Binding LastName}"/>
+            <TextBox x:Name="LastNameTextBox" Style="{StaticResource ValidatedTextBox}">
+                <TextBox.Text>
+                    <Binding Path="LastName" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
+                        <Binding.ValidationRules>
+                            <validation:CommonValidationRules ValidationType="OnlyLetters" FieldName="Фамилия"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl Style="{StaticResource ValidationErrorItems}"
+                         ItemsSource="{Binding ElementName=LastNameTextBox, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <!-- Отчество -->
             <Label Content="Отчество" Style="{StaticResource H2}"/>
-            <TextBox Text="{Binding MiddleName}"/>
+            <TextBox x:Name="MiddleNameTextBox" Style="{StaticResource ValidatedTextBox}">
+                <TextBox.Text>
+                    <Binding Path="MiddleName" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
+                        <Binding.ValidationRules>
+                            <validation:CommonValidationRules ValidationType="OnlyLetters" FieldName="Отчество"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl Style="{StaticResource ValidationErrorItems}"
+                         ItemsSource="{Binding ElementName=MiddleNameTextBox, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <!-- Специализация -->
             <Label Content="Специализация" Style="{StaticResource H2}"/>
-            <TextBox Text="{Binding Specialization}"/>
+            <TextBox x:Name="SpecializationTextBox" Style="{StaticResource ValidatedTextBox}">
+                <TextBox.Text>
+                    <Binding Path="Specialization" UpdateSourceTrigger="PropertyChanged" ValidatesOnDataErrors="True">
+                        <Binding.ValidationRules>
+                            <validation:CommonValidationRules ValidationType="Specialization" FieldName="Специализация"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl Style="{StaticResource ValidationErrorItems}"
+                         ItemsSource="{Binding ElementName=SpecializationTextBox, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <!-- Пароль -->
             <Label Content="Пароль" Style="{StaticResource H2}"/>
-            <TextBox Text="{Binding Password}"/>
-            <Button Click="Button_Click_Reg">
+            <PasswordBox x:Name="PasswordBox" Style="{StaticResource ValidatedPasswordBox}"/>
+
+            <Button Click="Button_Click_Reg" Margin="0,20,0,0">
                 <Label Content="Зарегистрироваться" Style="{StaticResource H2}"/>
             </Button>
             <Button Click="Button_Click_Back">

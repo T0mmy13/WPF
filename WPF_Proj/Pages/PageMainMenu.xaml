@@ -4,9 +4,15 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:WPF_Proj.Pages"
+      xmlns:converters="clr-namespace:WPF_Proj.Converters"
       mc:Ignorable="d"
       d:DesignHeight="450" d:DesignWidth="800">
-    <Grid ShowGridLines="True">
+
+    <Page.Resources>
+        <converters:CommonConverters x:Key="CommonConverters"/>
+    </Page.Resources>
+
+    <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
@@ -16,30 +22,85 @@
             <RowDefinition Height="6*"/>
             <RowDefinition Height="0.6*"/>
         </Grid.RowDefinitions>
+
+        <!-- Заголовок с информацией о враче -->
         <StackPanel Grid.Row="0" Style="{StaticResource StackInGrid}">
-            <Label Content="ФИО" Style="{StaticResource H3}"/>
-            <Label Content="Специализация: 1" Style="{StaticResource H3}"/>
+            <Label Style="{StaticResource H3}" x:Name="DoctorNameLabel" Content="Загрузка..."/>
+            <Label Style="{StaticResource H3}" x:Name="SpecializationLabel" Content="Загрузка..."/>
         </StackPanel>
+
+        <!-- Панель кнопок -->
         <DockPanel Grid.Row="1">
             <Button Style="{StaticResource AddButton}" Content="+" Click="Button_Click"/>
-            <Button Click="Button_Click_StartApointment">
+            <Button Click="Button_Click_StartApointment" x:Name="StartAppointmentButton">
                 <Label Style="{StaticResource H2}" Content="Начать приём"/>
             </Button>
-            <Button Click="Button_Click_ChangeInfo">
+            <Button Click="Button_Click_ChangeInfo" x:Name="ChangeInfoButton">
                 <Label Style="{StaticResource H2}" Content="Изменить инфо"/>
             </Button>
         </DockPanel>
-        <ListBox Grid.Row="2">
-            <StackPanel Style="{StaticResource StackInGrid}">
-                <Label Style="{StaticResource H3}" Content="ФИО"/>
-                <Label Style="{StaticResource H3}" Content="Дата рождения"/>
-                <Label Style="{StaticResource H3}" Content="Возраст"/>
-                <Label Style="{StaticResource H3}" Content="Совершеннолетний/Несовершеннолетний"/>
-                <Label Style="{StaticResource H3}" Content="Номер"/>
-            </StackPanel>
+
+        <!-- Список пациентов с форматированием данных -->
+        <ListBox Grid.Row="2" x:Name="PatientsListBox" SelectionChanged="PatientsListBox_SelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border Style="{StaticResource PatientItemBorder}">
+                        <StackPanel>
+                            <!-- ФИО -->
+                            <StackPanel Style="{StaticResource HorizontalStackPanel}">
+                                <Label Style="{StaticResource H3Bold}" Content="ФИО:"/>
+                                <Label Style="{StaticResource H3}" 
+                                       Content="{Binding LastName, StringFormat={}{0} }"/>
+                                <Label Style="{StaticResource H3}" 
+                                       Content="{Binding Name, StringFormat={}{0} }"/>
+                                <Label Style="{StaticResource H3}" 
+                                       Content="{Binding MiddleName, StringFormat={}{0}}"/>
+                            </StackPanel>
+
+                            <!-- Дата рождения -->
+                            <StackPanel Style="{StaticResource HorizontalStackPanel}">
+                                <Label Style="{StaticResource H3Bold}" Content="Дата рождения:"/>
+                                <Label Style="{StaticResource H3}" 
+                                       Content="{Binding Birthday, StringFormat={}{0:dd.MM.yyyy}}"/>
+                            </StackPanel>
+
+                            <!-- Возраст -->
+                            <StackPanel Style="{StaticResource HorizontalStackPanel}">
+                                <Label Style="{StaticResource H3Bold}" Content="Возраст:"/>
+                                <Label Style="{StaticResource H3}" 
+                                       Content="{Binding Birthday, Converter={StaticResource CommonConverters}, ConverterParameter=Age, StringFormat={}{0} лет}"/>
+                            </StackPanel>
+
+                            <!-- Совершеннолетие -->
+                            <StackPanel Style="{StaticResource HorizontalStackPanel}">
+                                <Label Style="{StaticResource H3Bold}" Content="Статус:"/>
+                                <Label Style="{StaticResource H3}" 
+                                       Content="{Binding Birthday, Converter={StaticResource CommonConverters}, ConverterParameter=IsAdult}"/>
+                            </StackPanel>
+
+                            <!-- Телефон -->
+                            <StackPanel Style="{StaticResource HorizontalStackPanel}">
+                                <Label Style="{StaticResource H3Bold}" Content="Телефон:"/>
+                                <Label Style="{StaticResource H3}" 
+                                       Content="{Binding PhoneNumber, Converter={StaticResource CommonConverters}, ConverterParameter=Phone}"/>
+                            </StackPanel>
+
+                            <!-- Дни с последнего приема -->
+                            <StackPanel Style="{StaticResource HorizontalStackPanel}">
+                                <Label Style="{StaticResource H3Bold}" Content="Последний прием:"/>
+                                <Label Style="{StaticResource H3}" 
+                                       Content="{Binding LastAppointmentDate, Converter={StaticResource CommonConverters}, ConverterParameter=DaysSinceLastAppointment}"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
         </ListBox>
-        <StackPanel Style="{StaticResource StackInGrid}" Grid.Row="3">
-            <Label Style="{StaticResource H3}" Content="Всего пациентов:"/>
+
+        <!-- Статистика -->
+        <StackPanel Style="{StaticResource StackInGrid}" Grid.Row="3" Orientation="Horizontal">
+            <Label Style="{StaticResource H3Bold}" Content="Всего пациентов:"/>
+            <Label Style="{StaticResource H3}" Content="{Binding PatientsCount, StringFormat={}{0}}"/>
         </StackPanel>
     </Grid>
 </Page>

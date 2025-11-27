@@ -3,52 +3,40 @@
   "WorkspaceRootPath": "E:\\Projects\\WPF_Proj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\pages\\pagemainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\pages\\pagemainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\pages\\pageapointmens.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\pages\\pageapointmens.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\pages\\pageaddpatient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\pages\\pageaddpatient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\pages\\pagemainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\pages\\pagemainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\styles\\ui\\buttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\styles\\ui\\buttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\classes\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\classes\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\classes\\db_helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\classes\\db_helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\styles\\themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\styles\\themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\pages\\pageapointmens.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\pages\\pageapointmens.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\classes\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\classes\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\classes\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\classes\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\classes\\appointmentstories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\classes\\appointmentstories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\styles\\colors\\darkcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\styles\\colors\\darkcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\styles\\colors\\defaultcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\styles\\colors\\defaultcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\styles\\ui\\default.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\styles\\ui\\default.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|E:\\Projects\\WPF_Proj\\wpf_proj\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+      "AbsoluteMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|e:\\projects\\wpf_proj\\wpf_proj\\classes\\appointmenthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F5A9-D35F-2656-2F3B-4EB24B04CDCA}|WPF_Proj\\WPF_Proj.csproj|solutionrelative:wpf_proj\\classes\\appointmenthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,148 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PageMainMenu.xaml",
-              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Pages\\PageMainMenu.xaml",
-              "RelativeDocumentMoniker": "WPF_Proj\\Pages\\PageMainMenu.xaml",
-              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Pages\\PageMainMenu.xaml",
-              "RelativeToolTip": "WPF_Proj\\Pages\\PageMainMenu.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T13:55:01.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PageAddpatient.xaml",
-              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Pages\\PageAddpatient.xaml",
-              "RelativeDocumentMoniker": "WPF_Proj\\Pages\\PageAddpatient.xaml",
-              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Pages\\PageAddpatient.xaml",
-              "RelativeToolTip": "WPF_Proj\\Pages\\PageAddpatient.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T13:54:57.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_Proj\\MainWindow.xaml.cs",
-              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WPF_Proj\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Title": "PageMainMenu.xaml.cs",
+              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Pages\\PageMainMenu.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Proj\\Pages\\PageMainMenu.xaml.cs",
+              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Pages\\PageMainMenu.xaml.cs",
+              "RelativeToolTip": "WPF_Proj\\Pages\\PageMainMenu.xaml.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAQwJQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T13:25:39.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WPF_Proj\\MainWindow.xaml",
-              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\MainWindow.xaml",
-              "RelativeToolTip": "WPF_Proj\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T13:16:43.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\App.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_Proj\\App.xaml.cs",
-              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\App.xaml.cs",
-              "RelativeToolTip": "WPF_Proj\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T13:13:33.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml",
-              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\App.xaml",
-              "RelativeDocumentMoniker": "WPF_Proj\\App.xaml",
-              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\App.xaml",
-              "RelativeToolTip": "WPF_Proj\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T13:13:26.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ThemeHelper.cs",
-              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Styles\\ThemeHelper.cs",
-              "RelativeDocumentMoniker": "WPF_Proj\\Styles\\ThemeHelper.cs",
-              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Styles\\ThemeHelper.cs",
-              "RelativeToolTip": "WPF_Proj\\Styles\\ThemeHelper.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAuwDcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T13:13:19.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Default.xaml",
-              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Styles\\UI\\Default.xaml",
-              "RelativeDocumentMoniker": "WPF_Proj\\Styles\\UI\\Default.xaml",
-              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Styles\\UI\\Default.xaml",
-              "RelativeToolTip": "WPF_Proj\\Styles\\UI\\Default.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T13:12:51.133Z",
+              "WhenOpened": "2025-11-27T19:32:30.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Buttons.xaml",
-              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Styles\\UI\\Buttons.xaml",
-              "RelativeDocumentMoniker": "WPF_Proj\\Styles\\UI\\Buttons.xaml",
-              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Styles\\UI\\Buttons.xaml",
-              "RelativeToolTip": "WPF_Proj\\Styles\\UI\\Buttons.xaml",
+              "Title": "DatabaseInitializer.cs",
+              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Classes\\DatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "WPF_Proj\\Classes\\DatabaseInitializer.cs",
+              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Classes\\DatabaseInitializer.cs",
+              "RelativeToolTip": "WPF_Proj\\Classes\\DatabaseInitializer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T19:29:15.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageApointmens.xaml.cs",
+              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Pages\\PageApointmens.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Proj\\Pages\\PageApointmens.xaml.cs",
+              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Pages\\PageApointmens.xaml.cs",
+              "RelativeToolTip": "WPF_Proj\\Pages\\PageApointmens.xaml.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAQwKAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T19:28:53.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PageApointmens.xaml",
+              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Pages\\PageApointmens.xaml",
+              "RelativeDocumentMoniker": "WPF_Proj\\Pages\\PageApointmens.xaml",
+              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Pages\\PageApointmens.xaml",
+              "RelativeToolTip": "WPF_Proj\\Pages\\PageApointmens.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T13:12:39.026Z",
+              "WhenOpened": "2025-11-27T19:28:50.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DB_helper.cs",
+              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Classes\\DB_helper.cs",
+              "RelativeDocumentMoniker": "WPF_Proj\\Classes\\DB_helper.cs",
+              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Classes\\DB_helper.cs",
+              "RelativeToolTip": "WPF_Proj\\Classes\\DB_helper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T19:28:32.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Classes\\Doctor.cs",
+              "RelativeDocumentMoniker": "WPF_Proj\\Classes\\Doctor.cs",
+              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Classes\\Doctor.cs",
+              "RelativeToolTip": "WPF_Proj\\Classes\\Doctor.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T19:28:25.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Classes\\Patient.cs",
+              "RelativeDocumentMoniker": "WPF_Proj\\Classes\\Patient.cs",
+              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Classes\\Patient.cs",
+              "RelativeToolTip": "WPF_Proj\\Classes\\Patient.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAqwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T19:28:17.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppointmentStories.cs",
+              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Classes\\AppointmentStories.cs",
+              "RelativeDocumentMoniker": "WPF_Proj\\Classes\\AppointmentStories.cs",
+              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Classes\\AppointmentStories.cs",
+              "RelativeToolTip": "WPF_Proj\\Classes\\AppointmentStories.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T19:28:04.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "DarkColors.xaml",
-              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Styles\\Colors\\DarkColors.xaml",
-              "RelativeDocumentMoniker": "WPF_Proj\\Styles\\Colors\\DarkColors.xaml",
-              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Styles\\Colors\\DarkColors.xaml",
-              "RelativeToolTip": "WPF_Proj\\Styles\\Colors\\DarkColors.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T13:12:24.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DefaultColors.xaml",
-              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Styles\\Colors\\DefaultColors.xaml",
-              "RelativeDocumentMoniker": "WPF_Proj\\Styles\\Colors\\DefaultColors.xaml",
-              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Styles\\Colors\\DefaultColors.xaml",
-              "RelativeToolTip": "WPF_Proj\\Styles\\Colors\\DefaultColors.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-27T13:12:13.018Z",
+              "Title": "AppointmentHelper.cs",
+              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Classes\\AppointmentHelper.cs",
+              "RelativeDocumentMoniker": "WPF_Proj\\Classes\\AppointmentHelper.cs",
+              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Classes\\AppointmentHelper.cs",
+              "RelativeToolTip": "WPF_Proj\\Classes\\AppointmentHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T19:28:01.071Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Settings.settings",
-              "DocumentMoniker": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Properties\\Settings.settings",
-              "RelativeDocumentMoniker": "WPF_Proj\\Properties\\Settings.settings",
-              "ToolTip": "E:\\Projects\\WPF_Proj\\WPF_Proj\\Properties\\Settings.settings",
-              "RelativeToolTip": "WPF_Proj\\Properties\\Settings.settings",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2025-11-27T13:11:47.07Z"
             }
           ]
         }

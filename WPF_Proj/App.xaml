@@ -1,6 +1,8 @@
 ﻿<Application x:Class="WPF_Proj.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:converters="clr-namespace:WPF_Proj.Converters"
+             xmlns:validation="clr-namespace:WPF_Proj.ValidationRules"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
@@ -8,7 +10,12 @@
                 <ResourceDictionary Source="Styles/Colors/DefaultColors.xaml"/>
                 <ResourceDictionary Source="Styles/UI/Buttons.xaml"/>
                 <ResourceDictionary Source="Styles/UI/Default.xaml"/>
+                <ResourceDictionary Source="Styles/UI/ValidationStyles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+
+            <!-- Конвертеры -->
+            <converters:CommonConverters x:Key="CommonConverters"/>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

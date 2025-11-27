@@ -7,9 +7,6 @@ namespace WPF_Proj
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-
-            // НЕ применяем сохраненную тему при старте
-            // ThemeHelper.ApplySavedTheme(); // ЗАКОММЕНТИРОВАТЬ эту строку
         }
     }
 }

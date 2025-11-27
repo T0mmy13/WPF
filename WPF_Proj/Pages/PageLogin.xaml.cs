@@ -1,28 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using WPF_Proj.Classes;
 
 namespace WPF_Proj.Pages
 {
     public partial class PageLogin : Page
     {
-        string Id;
-        
         public PageLogin()
         {
             InitializeComponent();
-            DataContext = this;
         }
 
         private void Button_Click_Reg(object sender, RoutedEventArgs e)
@@ -32,16 +18,39 @@ namespace WPF_Proj.Pages
 
         private void Button_Click_Sign(object sender, RoutedEventArgs e)
         {
-            if(!string.IsNullOrEmpty(Id) || !string.IsNullOrEmpty(passBox.Password))
+            // Проверяем валидацию
+            if (Validation.GetHasError(idTextBox) || string.IsNullOrEmpty(passBox.Password))
             {
-
+                MessageBox.Show("Заполните все поля правильно", "Ошибка ввода",
+                              MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
             }
-            else
+
+            // Проверяем существование врача в БД
+            try
             {
+                using (var db = new DBContext())
+                {
+                    int doctorId = int.Parse(idTextBox.Text);
+                    var doctor = db.Doctors.Find(doctorId);
 
+                    if (doctor != null && doctor.Password == passBox.Password)
+                    {
+                        // Передаем врача напрямую в PageMainMenu
+                        this.NavigationService.Navigate(new PageMainMenu(doctor));
+                    }
+                    else
+                    {
+                        MessageBox.Show("Неверный ID или пароль", "Ошибка входа",
+                                      MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                }
             }
-
-            this.NavigationService.Navigate(new PageMainMenu());
+            catch
+            {
+                MessageBox.Show("Неверный ID или пароль", "Ошибка входа",
+                              MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

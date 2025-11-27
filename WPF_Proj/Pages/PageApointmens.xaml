@@ -16,38 +16,50 @@
             <RowDefinition Height="4*"/>
             <RowDefinition Height="0.7*"/>
         </Grid.RowDefinitions>
+
+        <!-- Информация о пациенте -->
         <StackPanel Grid.Row="0" Style="{StaticResource StackInGrid}">
-            <Label Style="{StaticResource H3}" Content="ФИО"/>
-            <Label Style="{StaticResource H3}" Content="Дата рождения"/>
-            <Label Style="{StaticResource H3}" Content="Возраст"/>
-            <Label Style="{StaticResource H3}" Content="Совершеннолетний/Несовершеннолетний"/>
-            <Label Style="{StaticResource H3}" Content="Номер"/>
+            <Label Style="{StaticResource H3}" x:Name="PatientNameLabel"/>
+            <Label Style="{StaticResource H3}" x:Name="BirthdayLabel"/>
+            <Label Style="{StaticResource H3}" x:Name="AgeLabel"/>
+            <Label Style="{StaticResource H3}" x:Name="AdultStatusLabel"/>
+            <Label Style="{StaticResource H3}" x:Name="PhoneLabel"/>
         </StackPanel>
+
+        <!-- Диагноз и рекомендации -->
         <StackPanel Grid.Row="1" Style="{StaticResource StackInGrid}">
             <DockPanel>
                 <StackPanel DockPanel.Dock="Top" Style="{StaticResource StackInGrid}">
                     <Label Style="{StaticResource H3}" Content="Диагноз"/>
-                    <TextBox/>
+                    <TextBox x:Name="DiagnosisTextBox"/>
                 </StackPanel>
                 <StackPanel DockPanel.Dock="Top" Style="{StaticResource StackInGrid}">
                     <Label Style="{StaticResource H3}" Content="Рекомендации"/>
-                    <TextBox Style="{StaticResource BigTextbox}"/>
-                </StackPanel>                
+                    <TextBox x:Name="RecommendationsTextBox" Style="{StaticResource BigTextbox}"/>
+                </StackPanel>
             </DockPanel>
-            <Button>
+            <Button Click="Button_SaveAppointment_Click">
                 <Label Content="Сохранить" Style="{StaticResource H2}"/>
             </Button>
         </StackPanel>
+
+        <!-- История приемов -->
         <StackPanel Grid.Row="2" Style="{StaticResource StackInGrid}">
             <Label Content="История приёмов" Style="{StaticResource H2}"/>
-            <ListBox>
-                <StackPanel Style="{StaticResource StackInGrid}">
-                    <Label Style="{StaticResource H3}" Content="Дата"/>
-                    <Label Style="{StaticResource H3}" Content="Врач"/>
-                    <Label Style="{StaticResource H3}" Content="Диагноз"/>
-                </StackPanel>
+            <ListBox x:Name="AppointmentsListBox">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Style="{StaticResource StackInGrid}">
+                            <Label Style="{StaticResource H3}" Content="{Binding Date, StringFormat='Дата: {0:dd.MM.yyyy}'}"/>
+                            <Label Style="{StaticResource H3}" Content="{Binding Diagnosis, StringFormat='Диагноз: {0}'}"/>
+                            <Label Style="{StaticResource H3}" Content="{Binding Recomendations, StringFormat='Рекомендации: {0}'}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
             </ListBox>
         </StackPanel>
+
+        <!-- Кнопка назад -->
         <StackPanel Grid.Row="3" Style="{StaticResource StackInGrid}">
             <Button Click="Button_Click_Back">
                 <Label Content="Назад" Style="{StaticResource H2}"/>
